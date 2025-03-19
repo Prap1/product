@@ -1,7 +1,5 @@
 
-# user credentials
-user-emilys
-pass-emilyspass
+
 
 # Getting Started with Create React App
 
