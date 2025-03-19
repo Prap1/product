@@ -17,7 +17,7 @@ const Product = ({ product }) => {
       }
     });
   };
-  // Safely convert any value to string
+
   const safeString = (value) => {
     if (value === null || value === undefined) return '';
     if (typeof value === 'object') {
@@ -28,7 +28,7 @@ const Product = ({ product }) => {
     return String(value);
   };
 
-  // Normalize tags to simple strings
+  
   const normalizedTags = Array.isArray(product.tags)
     ? product.tags.map((tag) => safeString(tag))
     : [];
